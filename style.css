@@ -81,3 +81,60 @@ h4 {
 .formula_manipal > p {
     margin: 0 4rem;
 }
+
+
+
+@media screen and (max-width: 1024px){
+    body {
+        margin: 2rem auto;
+        width: 40rem;
+    }
+
+    img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .grid_item {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 2rem auto;
+        width: 30rem;
+    }
+
+    img {
+        width: 300px;
+        height: 300px;
+    }    
+
+    .introduction {        
+        justify-content: space-around;        
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid_item {
+        width: 400px;
+    }
+
+    .grid_item > a {
+        margin-left: 2rem;
+    }
+
+    .formula_manipal > h2 {
+        margin: 2rem 0 0.5rem 0;
+    }
+    
+    .formula_manipal > p {
+        margin: 0;
+    }
+}
